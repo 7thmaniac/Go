@@ -1,0 +1,35 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+/bin/
+/obj/
+
+# Dependency directories
+vendor/
+
+# Go workspace files
+.golangci.yml
+.gopath
+.goroot
+.gocache
+*.test
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.tmp
